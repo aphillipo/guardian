@@ -2,7 +2,7 @@ defmodule Guardian.Mixfile do
   @moduledoc false
   use Mix.Project
 
-  @version "1.1.1"
+  @version "1.2.1"
   @url "https://github.com/ueberauth/guardian"
   @maintainers [
     "Daniel Neighman",
@@ -168,7 +168,7 @@ defmodule Guardian.Mixfile do
       {:ex_doc, ">= 0.0.0", only: [:dev], runtime: false},
       {:excoveralls, ">= 0.0.0", only: [:test], runtime: false},
       {:inch_ex, ">= 0.0.0", only: [:dev], runtime: false},
-      {:jason, "~> 1.1", only: [:dev, :test], runtume: false}
+      {:jason, "~> 1.1", only: [:dev, :test], runtime: false}
     ]
   end
 
